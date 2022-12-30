@@ -7,6 +7,11 @@
 #include <map>
 #include <cstring>
 using namespace std;
+#ifdef ONLINE_JUDGE
+#define dbg(X)
+#else
+#define dbg(X) cout<<#X": "<<(X)<<endl;
+#endif
 typedef long long ll;
 const int inf = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
@@ -17,7 +22,7 @@ int main()
     int _;
     cin >> _;
     while (_--) {
-        ll n, m; 
+        ll n, m;
         
     }
     return 0;
