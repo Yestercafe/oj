@@ -17,8 +17,16 @@ const int inf = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
 #define N 300050
 
+void init() {
+    
+}
+
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    init();
     int _;
     cin >> _;
     while (_--) {
