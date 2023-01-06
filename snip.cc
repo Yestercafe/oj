@@ -6,6 +6,7 @@
 #include <set>
 #include <map>
 #include <cstring>
+#include <iterator>
 using namespace std;
 #ifdef ONLINE_JUDGE
 #define dbg(X)
@@ -16,6 +17,9 @@ typedef long long ll;
 const int inf = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
 #define N 300050
+typedef pair<int, int> pii;
+typedef pair<ll, ll> pll;
+#define mp make_pair
 
 void init() {
     
