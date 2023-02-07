@@ -1,41 +1,22 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <deque>
-#include <string>
-#include <set>
-#include <map>
-#include <cstring>
-#include <iterator>
+#include <bits/stdc++.h>
 using namespace std;
-#ifdef ONLINE_JUDGE
-#define dbg(X)
-#else
-#define dbg(X) cout<<#X": "<<(X)<<endl;
-#endif
 typedef long long ll;
 const int inf = 0x3f3f3f3f;
 const int mod = 1e9 + 7;
 #define N 300050
-typedef pair<int, int> pii;
-typedef pair<ll, ll> pll;
-#define mp make_pair
 
-void init() {
-    
+void solve() {
+
 }
 
 int main()
 {
     ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
-    init();
-    int _;
-    cin >> _;
-    while (_--) {
-        ll n, m;
-        
+    cin.tie(nullptr);
+    int tt;
+    cin >> tt;
+    while (tt--) {
+        ::solve();
     }
     return 0;
 }
