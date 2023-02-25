@@ -2,3 +2,6 @@
 *~
 *.in
 *.out
+*.exe
+.cph
+*.bin
