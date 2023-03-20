@@ -13,7 +13,7 @@ namespace ranges = std::ranges;
 #endif /* ONLINE_JUDGE */
 
 const bool __SINGLETON = false;
-void solve() {
+void __solve() {
 
 }
 
@@ -22,11 +22,11 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     if (__SINGLETON) {
-        ::solve();
+        ::__solve();
     } else {
         i64 tt;
         cin >> tt;
-        while (tt--) ::solve();
+        while (tt--) ::__solve();
     }
     return 0;
 }
