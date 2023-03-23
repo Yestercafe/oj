@@ -18,13 +18,13 @@ void __solve() {
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
     if (__SINGLETON) {
         ::__solve();
     } else {
         i64 tt;
-        cin >> tt;
+        std::cin >> tt;
         while (tt--) ::__solve();
     }
     return 0;
