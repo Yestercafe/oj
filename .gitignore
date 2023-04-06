@@ -6,3 +6,6 @@
 .cph
 *.bin
 .cph
+*:tests
+.vscode
+
